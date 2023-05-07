@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e655b07832eb4843a952198432258bd, type: 3}
+  m_Name: burgundy
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4762444787155643899, guid: 2b6c25abfbf3bab4aac2299321c3a7e0, type: 3}
+  isMalePresenting: 0
+  skinColor: {r: 0.58859146, g: 0.5510264, b: 0.6981132, a: 0}
+  shirtTexture: {fileID: 2800000, guid: 7e6fe1658f2c201479eb78fcfefa6817, type: 3}
+  shirtNormal: {fileID: 2800000, guid: 3f94afc12ca2915478d30639feff7fae, type: 3}
+  shirtColor1: {r: 0.9716981, g: 0.794713, b: 0.4369585, a: 1}
+  shirtColor2: {r: 0.4716981, g: 0.11866616, b: 0.16731875, a: 1}
+  undershirtTexture: {fileID: 2800000, guid: f0d9fa554d3092145af5fc9250703195, type: 3}
+  undershirtNormal: {fileID: 2800000, guid: 2ed8b8d6cb811ae4d9df9c914541e696, type: 3}
+  underShirtColor1: {r: 0.5188679, g: 0.33634192, b: 0.09137292, a: 1}
+  underShirtColor2: {r: 0.8396226, g: 0.7827458, b: 0.7260887, a: 1}
+  useCustomLogo: 1
+  customLogoTexture: {fileID: 2800000, guid: f92593d09b088c740b398cef962a8b33, type: 3}
+  eyeColor: {r: 1, g: 0.75267047, b: 0.40251565, a: 1}
+  hairColor: {r: 0.5377358, g: 0.39050144, b: 0.1860092, a: 1}
+  edgeHairColor: {r: 0.3584906, g: 0.028746892, b: 0.05872356, a: 1}
+  traits:
+    _isShy: 1
+    _isNosy: 0
+    _danceIdle: 1
+    _isInterruptable: 0
+  defaultShirtTexture: {fileID: 2800000, guid: efefe4bb94893044f9e04d7824a9d871, type: 3}
+  defaultShirtNormal: {fileID: 2800000, guid: c46c4093266bc364b85fb47d561aa551, type: 3}
+  defaultUndershirtTexture: {fileID: 2800000, guid: c91f9c63ca7787947b21ff58e96fe9cd,
+    type: 3}
+  defaultUndershirtNormal: {fileID: 2800000, guid: f4058014420394c4f9247b6025196b59,
+    type: 3}
+  defaultCustomLogo: {fileID: 0}

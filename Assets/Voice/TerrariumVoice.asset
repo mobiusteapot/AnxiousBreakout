@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: TerrariumVoice
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 11400000}
+    name: terrarium
+    id: 1842076169500674
+    lang: en
+    isPrivate: 1
+    createdAt: 2023-03-14T12:51:35-0700
+  configId: b4e94ef0023459e4b962360e368e8445
+  clientAccessToken: UW335VSZJVCV46QI4VUM4OCAKHWPJOPX
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+    dictation: 
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 950359006377843
+    name: wit_general_greet
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 570537808380247
+      name: wit_general_greet
+    keywords:
+    - keyword: How you doing
+      synonyms:
+      - how you doing
+    - keyword: What's up
+      synonyms:
+      - what's up
+    - keyword: how are you
+      synonyms:
+      - how are you
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 778540096937359
+    name: greet
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 570537808380247
+      name: wit_general_greet:wit_general_greet
+      lookups: []
+      roles: []
+      keywords: []
+  traits: []
+  isDemoOnly: 0
+  useConduit: 0
+  manifestLocalPath: ConduitManifest-63dae2d7-e254-40bf-9499-8733a1d78606.json
+  openManifestOnGeneration: 0

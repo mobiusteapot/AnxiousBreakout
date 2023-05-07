@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3041102405990405529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3041102405990405527}
+  - component: {fileID: 3041102405990405526}
+  - component: {fileID: 5255677609746065849}
+  m_Layer: 0
+  m_Name: BrickManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3041102405990405527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3041102405990405529}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 1.985}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &3041102405990405526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3041102405990405529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7a3b7416b27ed45916e0030a91d5c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 5
+  height: 3
+  widthSpacing: 1
+  rowOffset: 0.15
+  heightSpacing: 0.5
+  brickPrefab: {fileID: 2581243501946306305, guid: a683b9171097e4346b337e859a26ed3d,
+    type: 3}
+  brickWallConfigs:
+  - wallColor: {r: 0.5566038, g: 0.20303783, b: 0.20303783, a: 1}
+    decalColor: {r: 0.4385902, g: 0.57305795, b: 0.7924528, a: 1}
+    decalMaterial: {fileID: 2100000, guid: 856a8eb87fdbc5a43ade1a34b61800f7, type: 2}
+  - wallColor: {r: 0.2924528, g: 0.28568217, b: 0.23635337, a: 1}
+    decalColor: {r: 0.6118335, g: 0.38210508, b: 0.8679245, a: 1}
+    decalMaterial: {fileID: 2100000, guid: 549a322a1798dbf47a654e32a2396de3, type: 2}
+  - wallColor: {r: 0.27293223, g: 0.3773585, b: 0.2873449, a: 1}
+    decalColor: {r: 0.27153787, g: 0.34191114, b: 0.764151, a: 1}
+    decalMaterial: {fileID: 2100000, guid: acd6c25b386a3bc40b07e0ce6e521063, type: 2}
+  - wallColor: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
+    decalColor: {r: 0.735849, g: 0.31701666, b: 0.31701666, a: 1}
+    decalMaterial: {fileID: 2100000, guid: b279247e01fdc304e84c061050e4aaf0, type: 2}
+  - wallColor: {r: 0.5283019, g: 0.4296173, b: 0.33226532, a: 1}
+    decalColor: {r: 0.8207547, g: 0.24519394, b: 0.4793712, a: 1}
+    decalMaterial: {fileID: 2100000, guid: 5410a800d97538643a7ec3c40cd9d912, type: 2}
+  - wallColor: {r: 0.6698113, g: 0.64224523, b: 0.46549776, a: 1}
+    decalColor: {r: 0.3266583, g: 0.71362287, b: 0.7264151, a: 1}
+    decalMaterial: {fileID: 2100000, guid: 44507068902ab5a40a573bbd2c7c759f, type: 2}
+--- !u!114 &5255677609746065849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3041102405990405529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

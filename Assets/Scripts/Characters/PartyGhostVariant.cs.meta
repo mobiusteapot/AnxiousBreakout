@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 0e655b07832eb4843a952198432258bd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefab: {fileID: 4762444787155643899, guid: 2b6c25abfbf3bab4aac2299321c3a7e0,
+      type: 3}
+  - shirtTexture: {instanceID: 0}
+  - shirtNormal: {instanceID: 0}
+  - undershirtTexture: {instanceID: 0}
+  - undershirtNormal: {instanceID: 0}
+  - customLogoTexture: {instanceID: 0}
+  - defaultShirtTexture: {fileID: 2800000, guid: efefe4bb94893044f9e04d7824a9d871,
+      type: 3}
+  - defaultShirtNormal: {fileID: 2800000, guid: c46c4093266bc364b85fb47d561aa551,
+      type: 3}
+  - defaultUndershirtTexture: {fileID: 2800000, guid: c91f9c63ca7787947b21ff58e96fe9cd,
+      type: 3}
+  - defaultUndershirtNormal: {fileID: 2800000, guid: f4058014420394c4f9247b6025196b59,
+      type: 3}
+  - defaultCustomLogo: {fileID: 2800000, guid: f92593d09b088c740b398cef962a8b33, type: 3}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 01ca950d39a43e940a963372e8ad724a, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

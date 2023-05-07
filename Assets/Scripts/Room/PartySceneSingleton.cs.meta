@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6eedd69e7fed8d64d946ac9328ef1aca
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - vrRoom: {instanceID: 0}
+  - _mainCamera: {instanceID: 0}
+  - _playerManager: {instanceID: 0}
+  - walletPrefab: {fileID: 2303395299064911701, guid: bd27bf76e4ff76d4192a8ba117d99cca,
+      type: 3}
+  executionOrder: -500
+  icon: {fileID: 2800000, guid: b1b079d053c3d0c41952dadf32a89ffd, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
